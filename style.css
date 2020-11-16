@@ -17,7 +17,7 @@ body {
 
 .container {
     width: min(1000px, 100%);
-    margin: 0 1rem;
+    margin: 1rem;
     padding: 3.5rem 2rem;
     display: flex;
     flex-direction: column;
@@ -157,7 +157,8 @@ input[type='checkbox'] {
     }
 
     input[type='checkbox'] {
-        top: calc(50% - 23px);
+        top: calc(50% - 25px);
+        left: 10px;
     }
 
     .edit,
